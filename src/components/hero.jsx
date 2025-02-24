@@ -34,8 +34,7 @@ export default function Hero() {
           Usama Ijaz
         </h1>
         <h2 className="text-xl mb-6 sm:text-2xl">
-          I&apos;m a{" "}
-          <span className="text-[#4ADE80]">MERN Stack Developer</span>
+          I&apos;m a<span className="text-[#4ADE80]">MERN Stack Developer</span>
         </h2>
         <p className="text-gray-300 mb-8 text-sm sm:text-base">
           Pakistani national with a Bachelor's in Software Engineering. Skilled
