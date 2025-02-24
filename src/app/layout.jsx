@@ -4,8 +4,9 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio Website",
-  description: "Modern portfolio website with dark theme",
+  title: "Usama Ijaz | Full Stack Developer",
+  description:
+    "Full Stack Developer specializing in the MERN stack, building scalable and user-friendly web applications. Strong English communication skills for global collaboration. Experienced in deploying web apps on Vercel. Adaptable, problem solver, and team player with strong analytical skills.",
 };
 
 export default function RootLayout({ children }) {

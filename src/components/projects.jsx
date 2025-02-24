@@ -62,7 +62,7 @@ export default function Projects() {
                     alt={`${project?.title} logo`}
                     loading="lazy"
                     onLoad={() => setLoading(false)}
-                    className="h-[200px] sm:h-[400px] w-[100%] object-fit "
+                    className="h-[200px] sm:h-[400px] object-cover w-[100%] object-fit "
                   />
                 </div>
 
