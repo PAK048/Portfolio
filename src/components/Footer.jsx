@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         {/* Social Icons */}
         <div className="flex flex justify-center space-x-6 ">
-          <span className="sm:mt-[10px]  ">Contact:</span>
+          <span className="sm:mt-[10px] text-gray-300 ">Contact:</span>
           {socialLinks.map((link, index) => (
             <motion.a
               key={index}
