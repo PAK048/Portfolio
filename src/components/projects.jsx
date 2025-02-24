@@ -26,7 +26,7 @@ export default function Projects() {
 
   return (
     <section className="px-8 py-16 bg-[#1F2937]  ">
-      <div className="sm:max-w-6xl max-w-[270]  shadow-2xl shadow-[0_10px_30px_rgba(0,0,0,0.6)] rounded-lg p-2   mx-auto">
+      <div className="sm:max-w-6xl max-w-[270]  shadow-2xl  rounded-lg p-2   mx-auto">
         <div className="flex justify-between  items-center  mb-8">
           <h2 className="text-2xl sm:text-4xl font-mono text-white">
             <span className="text-gray-400">#</span>projects

@@ -49,7 +49,7 @@ export default function Hero() {
           I&apos;m a{" "}
           <span className="text-[#4ADE80]">MERN Stack Developer</span>
         </h2>
-        <p className="text-gray-300 mb-8 text-sm sm:text-base">
+        <p className="text-gray-300 mb-8  text-sm sm:text-base">
           Pakistani national with a Bachelor's in Software Engineering. Skilled
           in MERN Development . Proficient in English for global communication.
           Expertise Frontend & Backend Development.Having Experience of web
@@ -97,19 +97,12 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
         className="relative mt-8 sm:mt-0"
       >
-        <div className="w-[200px] h-[200px] sm:w-[500px]  sm:h-[500px]  relative">
+        <div className=" w-[200px] h-[200px] mb-[350px] sm:mb-[10px]  bg-inherit  sm:w-[350px]  sm:h-[350px] sm:mr-[200px]  relative">
           <Image
-            src="/images/profile.jpg"
+            src="/images/profile.png"
             alt="Profile"
             fill
-            className="object-cover rounded-full"
-          />
-          <div
-            className="absolute inset-0 border-2 border-[#4ADE80] rounded-full"
-            style={{
-              clipPath:
-                "polygon(100% 0, 100% 100%, 0 100%, 0 50%, 100% 50%, 100% 0)",
-            }}
+            className="object-cover border-2 sm:border-4  mix-blend-darker  border-[#075056] rounded-full"
           />
         </div>
       </motion.div>
