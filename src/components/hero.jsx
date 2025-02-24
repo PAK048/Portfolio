@@ -3,14 +3,26 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Github, Linkedin, Twitter, Youtube } from "lucide-react";
+import {
+  ArrowRight,
+  Facebook,
+  Github,
+  Linkedin,
+  Instagram,
+} from "lucide-react";
 
 export default function Hero() {
   const socialLinks = [
-    { icon: Github, href: "#" },
-    { icon: Linkedin, href: "#" },
-    { icon: Twitter, href: "#" },
-    { icon: Youtube, href: "#" },
+    { icon: Github, href: "https://github.com/PAK048" },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/muhammad-usama-ijaz-3367532a6",
+    },
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/usama_ijaz19?igsh=dWJoNmIxb2V5OGM0",
+    },
+    { icon: Facebook, href: "https://www.facebook.com/share/18jQVmqvFF/" },
   ];
   const handleDownload = () => {
     const link = document.createElement("a");
